@@ -1,5 +1,17 @@
-# multitenant
+# JHipster multitenant example
 This application was generated using JHipster 4.6.2, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.6.2](https://jhipster.github.io/documentation-archive/v4.6.2).
+
+## Modified files from original generated
+src/main/java/br/com/jexperts/psoffice/config/DatabaseConfiguration.java
+src/main/java/br/com/jexperts/psoffice/domain/User.java
+src/main/java/br/com/jexperts/psoffice/security/DomainUserDetailsService.java
+src/main/java/br/com/jexperts/psoffice/security/SecurityUtils.java
+src/main/java/br/com/jexperts/psoffice/security/jwt/TokenProvider.java
+src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml
+src/main/java/br/com/jexperts/psoffice/config/multitenant/*
+src/main/java/br/com/jexperts/psoffice/domain/DataSourceConfig.java
+src/main/java/br/com/jexperts/psoffice/repository/DataSourceConfigRepository.java
+src/main/java/br/com/jexperts/psoffice/security/UserDetails.java
 
 ## Development
 
